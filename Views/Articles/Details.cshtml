@@ -1,0 +1,28 @@
+@model ArticleVm
+@{
+    ViewData["Title"] = Model.Title;
+}
+<div class="container-fluid px-3 px-lg-4 py-5">
+    <a class="btn btn-sm btn-outline-secondary mb-3" href="/Articles">← Назад</a>
+
+    <div class="row g-4">
+        <div class="col-lg-8">
+            <h1 class="pp-h1">@Model.Title</h1>
+            <div class="text-muted mb-4">@Model.Excerpt</div>
+
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <pre class="pp-articlebody">@Model.Body</pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <img class="img-fluid rounded" src="@Model.ImagePath" alt="@Model.Title" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+@model LoginVm
+@{
+    ViewData["Title"] = "Вход";
+    var returnUrl = ViewBag.ReturnUrl as string;
+}
+<div class="pp-shell pp-page-block">
+    <div class="pp-form-stage pp-form-stage-center">
+        <div class="pp-form-card">
+            <h1 class="pp-form-title">Вход</h1>
+            @if (TempData["ok"] != null)
+            {
+                <div class="alert alert-success">@TempData["ok"]</div>
+            }
+            <form method="post" asp-route-returnUrl="@returnUrl" class="pp-clean-form">
+                @Html.AntiForgeryToken()
+                <div class="mb-3">
+                    <label>Почта</label>
+                    <input class="form-control pp-input" asp-for="Email" />
+                    <span class="text-danger small" asp-validation-for="Email"></span>
+                </div>
+                <div class="mb-1">
+                    <label>Пароль</label>
+                    <input class="form-control pp-input" asp-for="Password" type="password" />
+                    <span class="text-danger small" asp-validation-for="Password"></span>
+                    <div class="pp-hint">Пароль должен состоять минимум из 8 символов</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mt-3 mb-4 small gap-3 flex-wrap">
+                    <label class="d-flex align-items-center gap-2"><input type="checkbox" disabled /> Запомнить меня</label>
+                    <a class="pp-text-link" asp-controller="Account" asp-action="ForgotPassword">Забыли пароль?</a>
+                </div>
+                <div class="text-danger small mb-2">@Html.ValidationSummary(excludePropertyErrors: true)</div>
+                <button class="pp-outline-btn pp-big-btn w-100" type="submit">Войти</button>
+            </form>
+            <div class="pp-form-bottom-link">Ещё нет аккаунта? <a class="pp-text-link" href="/Account/Register">Зарегистрируйтесь</a></div>
+        </div>
+    </div>
+</div>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

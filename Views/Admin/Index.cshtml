@@ -1,0 +1,69 @@
+@model AdminStatsVm
+@{
+    ViewData["Title"] = "Админ‑панель";
+}
+<div class="container-fluid px-3 px-lg-4 py-5">
+    <h1 class="pp-h1">Админ‑панель</h1>
+
+    @if (TempData["ok"] != null)
+    {
+        <div class="alert alert-success">@TempData["ok"]</div>
+    }
+
+    <div class="row g-3 mt-2">
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="text-muted small">Пользователи</div>
+                    <div class="fs-3 fw-bold">@Model.Users</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="text-muted small">Организации</div>
+                    <div class="fs-3 fw-bold">@Model.Organizations</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="text-muted small">Заявки</div>
+                    <div class="fs-3 fw-bold">@Model.Requests</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="text-muted small">Заявки организаций</div>
+                    <div class="fs-3 fw-bold">@Model.VolunteerApplications</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm mt-4">
+        <div class="card-body p-4">
+            <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3">
+                <div>
+                    <div class="fw-semibold">Парсер организаций</div>
+                    <div class="text-muted small">
+                        Последний запуск (UTC):
+                        <span class="fw-semibold">@((Model.LastParserRunUtc?.ToString("u")) ?? "—")</span>
+                    </div>
+                    <div class="text-muted small mt-1">Источник синхронизации — OpenStreetMap через Overpass API. За один запуск система подбирает до 50 организаций по России и обновляет уже существующие карточки.</div>
+                </div>
+                <div class="d-flex gap-2">
+                    <a class="btn btn-outline-secondary" href="/Admin/Users">Пользователи</a>
+                    <form method="post" action="/Admin/RunParser">
+                        @Html.AntiForgeryToken()
+                        <button class="btn btn-danger" type="submit">Запустить парсер сейчас</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

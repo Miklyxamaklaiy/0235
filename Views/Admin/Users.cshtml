@@ -1,0 +1,68 @@
+@model List<AppUser>
+@{
+    ViewData["Title"] = "Пользователи";
+    var roles = new[] { "Requester", "Volunteer", "Admin" };
+}
+<div class="container-fluid px-3 px-lg-4 py-5">
+    <div class="d-flex align-items-end justify-content-between gap-3">
+        <div>
+            <h1 class="pp-h1 mb-1">Пользователи</h1>
+            <div class="text-muted">Управление ролями и доступом пользователей.</div>
+        </div>
+        <a class="btn btn-outline-secondary" href="/Admin">← Назад</a>
+    </div>
+
+    @if (TempData["ok"] != null)
+    {
+        <div class="alert alert-success mt-3">@TempData["ok"]</div>
+    }
+
+    <div class="card border-0 shadow-sm mt-4">
+        <div class="table-responsive">
+            <table class="table table-hover mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Email</th>
+                        <th>Имя</th>
+                        <th>Роль</th>
+                        <th>Регистрация</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var u in Model)
+                {
+                    <tr>
+                        <td>@u.Id</td>
+                        <td>@u.Email</td>
+                        <td>@u.FullName</td>
+                        <td><span class="badge bg-secondary">@u.Role</span></td>
+                        <td>@u.CreatedAt.ToLocalTime().ToString("dd.MM.yyyy")</td>
+                        <td class="text-end">
+                            <form method="post" action="/Admin/SetRole" class="d-flex justify-content-end gap-2">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@u.Id" />
+                                <select class="form-select form-select-sm" name="role" style="max-width: 180px;">
+                                    @foreach (var r in roles)
+                                    {
+                                        if (u.Role == r)
+                                        {
+                                            <option value="@r" selected>@r</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@r">@r</option>
+                                        }
+                                    }
+                                </select>
+                                <button class="btn btn-sm btn-primary" type="submit">Сохранить</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,96 @@
+@model RequestDetailsVm
+@{
+    ViewData["Title"] = "Заявка #" + Model.Request.Id;
+    var r = Model.Request;
+    var isVol = User.IsInRole("Volunteer") || User.IsInRole("Admin");
+}
+<div class="container-fluid px-3 px-lg-4 py-5">
+    <a class="btn btn-sm btn-outline-secondary mb-3" href="@(isVol ? "/Requests/All" : "/Requests/My")">← Назад</a>
+
+    <div class="row g-3">
+        <div class="col-lg-7">
+            <h1 class="pp-h1">Заявка #@r.Id</h1>
+            <div class="text-muted mb-3">
+                Категория: <span class="fw-semibold">@r.Category</span> ·
+                Статус: <span class="badge bg-secondary">@r.Status</span> ·
+                Дата: @r.CreatedAt.ToLocalTime().ToString("dd.MM.yyyy HH:mm")
+            </div>
+
+            <div class="card border-0 shadow-sm mb-3">
+                <div class="card-body p-4">
+                    <div class="fw-semibold mb-2">Описание</div>
+                    <div class="pp-pre">@r.Description</div>
+
+                    @if (!string.IsNullOrWhiteSpace(r.FilePath))
+                    {
+                        <div class="mt-3">
+                            <a class="btn btn-sm btn-outline-secondary" href="@r.FilePath" target="_blank">Открыть файл</a>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="card border-0 shadow-sm">
+                <div class="card-header bg-white fw-semibold">Комментарии</div>
+                <div class="card-body p-0">
+                    <div class="p-3">
+                        @if (r.Comments.Count == 0)
+                        {
+                            <div class="text-muted">Пока комментариев нет.</div>
+                        }
+                        else
+                        {
+                            foreach (var c in r.Comments.OrderBy(x => x.CreatedAt))
+                            {
+                                <div class="pp-comment">
+                                    <div class="small text-muted">@c.User?.FullName · @c.CreatedAt.ToLocalTime().ToString("dd.MM.yyyy HH:mm")</div>
+                                    <div>@c.Text</div>
+                                </div>
+                            }
+                        }
+                    </div>
+
+                    <div class="border-top p-3">
+                        <form method="post" action="/Requests/AddComment/@r.Id">
+                            @Html.AntiForgeryToken()
+                            <textarea class="form-control" name="NewCommentText" rows="3" placeholder="Написать комментарий..."></textarea>
+                            <button class="btn btn-primary mt-2" type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <div class="fw-semibold mb-2">Действия</div>
+
+                    <div class="d-grid gap-2">
+                        @if (isVol)
+                        {
+                            <form method="post" action="/Requests/Take/@r.Id">
+                                @Html.AntiForgeryToken()
+                                <button class="btn btn-outline-primary w-100" type="submit">Взять в работу</button>
+                            </form>
+                            <form method="post" action="/Requests/Complete/@r.Id">
+                                @Html.AntiForgeryToken()
+                                <button class="btn btn-outline-success w-100" type="submit">Завершить помощь</button>
+                            </form>
+                            <form method="post" action="/Requests/Reject/@r.Id">
+                                @Html.AntiForgeryToken()
+                                <button class="btn btn-outline-danger w-100" type="submit">Отклонить заявку</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <div class="text-muted small">Изменение статуса доступно пользователям с соответствующими правами.</div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>

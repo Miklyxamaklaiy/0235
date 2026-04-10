@@ -1,0 +1,25 @@
+@model List<ArticleVm>
+@{
+    ViewData["Title"] = "Статьи";
+}
+<div class="container-fluid px-3 px-lg-4 py-5">
+    <h1 class="pp-h1">Статьи</h1>
+    <div class="text-muted mb-4">Подборка материалов и публикаций проекта.</div>
+
+    <div class="row g-3">
+        @foreach (var a in Model)
+        {
+            <div class="col-12 col-md-6 col-xl-4">
+                <a class="card border-0 shadow-sm text-decoration-none h-100 pp-articlecard" href="/Articles/Details/@a.Id">
+                    <div class="pp-articleimg">
+                        <img src="@a.ImagePath" alt="@a.Title" />
+                    </div>
+                    <div class="card-body">
+                        <div class="fw-semibold">@a.Title</div>
+                        <div class="text-muted small mt-1">@a.Excerpt</div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+</div>

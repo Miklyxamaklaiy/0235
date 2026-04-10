@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a1.svg",
+      "PackagePath": "staticwebassets\\img\\articles\\a1.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a10.svg",
+      "PackagePath": "staticwebassets\\img\\articles\\a10.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a11.svg",
+      "PackagePath": "staticwebassets\\img\\articles\\a11.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a2.svg",
+      "PackagePath": "staticwebassets\\img\\articles\\a2.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a3.svg",
+      "PackagePath": "staticwebassets\\img\\articles\\a3.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a4.svg",
+      "PackagePath": "staticwebassets\\img\\articles\\a4.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a5.svg",
+      "PackagePath": "staticwebassets\\img\\articles\\a5.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a6.svg",
+      "PackagePath": "staticwebassets\\img\\articles\\a6.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a7.svg",
+      "PackagePath": "staticwebassets\\img\\articles\\a7.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a8.svg",
+      "PackagePath": "staticwebassets\\img\\articles\\a8.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a9.svg",
+      "PackagePath": "staticwebassets\\img\\articles\\a9.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\vol\\v1.svg",
+      "PackagePath": "staticwebassets\\img\\vol\\v1.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\vol\\v2.svg",
+      "PackagePath": "staticwebassets\\img\\vol\\v2.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\vol\\v3.svg",
+      "PackagePath": "staticwebassets\\img\\vol\\v3.svg"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\home.js",
+      "PackagePath": "staticwebassets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\slider.js",
+      "PackagePath": "staticwebassets\\js\\slider.js"
+    },
+    {
+      "Id": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\volunteer.js",
+      "PackagePath": "staticwebassets\\js\\volunteer.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PlechPomoshchi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PlechPomoshchi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PlechPomoshchi.props",
+      "PackagePath": "build\\PlechPomoshchi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PlechPomoshchi.props",
+      "PackagePath": "buildMultiTargeting\\PlechPomoshchi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PlechPomoshchi.props",
+      "PackagePath": "buildTransitive\\PlechPomoshchi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

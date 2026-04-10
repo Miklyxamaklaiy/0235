@@ -1,0 +1,52 @@
+@model VolunteerOrgApplicationVm
+@{
+    ViewData["Title"] = "Заявка организации";
+}
+<div class="pp-shell pp-page-block">
+    <div class="pp-form-stage pp-form-stage-center">
+        <div class="pp-form-card pp-form-card-wide">
+            <h1 class="pp-form-title">Заявка организации</h1>
+            @if (TempData["ok"] != null)
+            {
+                <div class="alert alert-success">@TempData["ok"]</div>
+            }
+            <form method="post" class="pp-clean-form">
+                @Html.AntiForgeryToken()
+                <div class="mb-3">
+                    <label>Название организации</label>
+                    <input class="form-control pp-input" asp-for="OrgName" />
+                    <span class="text-danger small" asp-validation-for="OrgName"></span>
+                </div>
+                <div class="mb-3">
+                    <label>Категория</label>
+                    <select class="form-select pp-input" asp-for="Category">
+                        <option value="">Выберите категорию</option>
+                        <option>Юридическая</option>
+                        <option>Психологическая</option>
+                        <option>Медицинская</option>
+                        <option>Материальная</option>
+                    </select>
+                    <span class="text-danger small" asp-validation-for="Category"></span>
+                </div>
+                <div class="mb-1">
+                    <label>Адрес</label>
+                    <input class="form-control pp-input" asp-for="Address" />
+                    <div class="pp-hint">Область, город, улица, дом</div>
+                    <span class="text-danger small" asp-validation-for="Address"></span>
+                </div>
+                <div class="mb-3 mt-3">
+                    <label>Контакт (телефон/почта)</label>
+                    <input class="form-control pp-input" asp-for="Contact" />
+                    <span class="text-danger small" asp-validation-for="Contact"></span>
+                </div>
+                <div class="mb-4">
+                    <label>Комментарий</label>
+                    <textarea class="form-control pp-input pp-textarea" asp-for="Message"></textarea>
+                    <span class="text-danger small" asp-validation-for="Message"></span>
+                </div>
+                <button class="pp-outline-btn pp-big-btn" type="submit">Подать заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

@@ -1,0 +1,1979 @@
+{
+  "Version": 1,
+  "Hash": "Z6KRNfn+qlabcmIhfbImRha3hQB7oKy9inNj5I3xzcA=",
+  "Source": "PlechPomoshchi",
+  "BasePath": "_content/PlechPomoshchi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PlechPomoshchi\\wwwroot",
+      "Source": "PlechPomoshchi",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\css\\site.css",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "brswgb9xa5",
+      "Integrity": "l0XCjNInrZBPxf3oeSiobNss47Vkqk0iBI98VbTwv18=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a1.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/articles/a1#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mf1h1fvdpg",
+      "Integrity": "go7avLW6VcNrHweypbSlfbBaL1e+u69HCQuUDxHyM6I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\articles\\a1.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a10.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/articles/a10#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sri7brdh7x",
+      "Integrity": "yKEfTJZNLcc3n9yFAZ9L5j7NwxDVJL+S6LgKyWCSozI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\articles\\a10.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a11.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/articles/a11#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iigtiqb1w6",
+      "Integrity": "2uJC+6H/sdBDFfGtrJuyfcKz3jzrohLdNhz1H9Wt+IE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\articles\\a11.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a2.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/articles/a2#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "woddf164kt",
+      "Integrity": "cAaghvfL1bqmgZpGBoAug8OBMbvSKqOLTGiiT21Z+7c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\articles\\a2.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a3.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/articles/a3#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9rqjh6f9l",
+      "Integrity": "hgMMyzdGoyRWJ4jCEX/gVCeOcj9JIxu1/m9Bwgm0wM0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\articles\\a3.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a4.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/articles/a4#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x5mz9ucerr",
+      "Integrity": "C4Tt1BKWTamBcAxnZbwjbU09NhVvg/EC76pve3GNTiw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\articles\\a4.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a5.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/articles/a5#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wi7v5h4wxn",
+      "Integrity": "2IDMMVh2pfAzM4ydRylKUPpqwloNon7xdwQChSKaAdw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\articles\\a5.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a6.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/articles/a6#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0zu7fesiwy",
+      "Integrity": "dMB2yZVTyMXXKfPxkhaD3HejC3Uxkc05q+qu8VeON6w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\articles\\a6.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a7.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/articles/a7#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r2tg7q10v8",
+      "Integrity": "MxaCwb95oT11yl5MOA/BafeuFV9irhqLawh0j2NsB5c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\articles\\a7.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a8.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/articles/a8#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d8hhx3j089",
+      "Integrity": "fU6UP+aN9pMIogR/owOtde5nTpXOY6YbAx+3YKTDDH4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\articles\\a8.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a9.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/articles/a9#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "49m1ge5rps",
+      "Integrity": "GMHaEoGlolaRrmBcE1BOFWedPFw9V1pI5ZvhEJRpamY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\articles\\a9.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\vol\\v1.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/vol/v1#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zwp9els4wk",
+      "Integrity": "c+1L9YVcbC5wGm9e66yiz6Ujfrzn6xL3xnEdTQHZh/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\vol\\v1.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\vol\\v2.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/vol/v2#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8c8pbtdy9y",
+      "Integrity": "eMXJ63OZ+AoHt+IBFDmctIL4BAyAZkwPdls6GBwOZu4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\vol\\v2.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\vol\\v3.svg",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "img/vol/v3#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "or68v765a3",
+      "Integrity": "RG9yFiu50T9q0eAZV2rkq7PejPdjV43Lzoa0gHFWRsA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\vol\\v3.svg"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\home.js",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "js/home#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9nyp0lav7v",
+      "Integrity": "pU+lnWlvVtczzse1CLqsVLylKgY8cSlE7qiObYKJ+mw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\home.js"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\site.js",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b9p6lexbfg",
+      "Integrity": "X8JgCWSZnlQHL6SucP/22qpyWWNNCrTyaDnkhoPL6og=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\slider.js",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "js/slider#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9m7zctq472",
+      "Integrity": "ry5flodPJM+YtdhbCC+jt4njcDeZOOQlrLKM0noS8JI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\slider.js"
+    },
+    {
+      "Identity": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\volunteer.js",
+      "SourceId": "PlechPomoshchi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\",
+      "BasePath": "_content/PlechPomoshchi",
+      "RelativePath": "js/volunteer#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9ek7yqgtjg",
+      "Integrity": "/1Ld4v67OSuJ+arxC1V4KISUeKegWDzokr0DUszzwOI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\volunteer.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.brswgb9xa5.css",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l0XCjNInrZBPxf3oeSiobNss47Vkqk0iBI98VbTwv18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "brswgb9xa5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l0XCjNInrZBPxf3oeSiobNss47Vkqk0iBI98VbTwv18="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l0XCjNInrZBPxf3oeSiobNss47Vkqk0iBI98VbTwv18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l0XCjNInrZBPxf3oeSiobNss47Vkqk0iBI98VbTwv18="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a1.mf1h1fvdpg.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"go7avLW6VcNrHweypbSlfbBaL1e+u69HCQuUDxHyM6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mf1h1fvdpg"
+        },
+        {
+          "Name": "label",
+          "Value": "img/articles/a1.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-go7avLW6VcNrHweypbSlfbBaL1e+u69HCQuUDxHyM6I="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a1.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"go7avLW6VcNrHweypbSlfbBaL1e+u69HCQuUDxHyM6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-go7avLW6VcNrHweypbSlfbBaL1e+u69HCQuUDxHyM6I="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a10.sri7brdh7x.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a10.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKEfTJZNLcc3n9yFAZ9L5j7NwxDVJL+S6LgKyWCSozI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sri7brdh7x"
+        },
+        {
+          "Name": "label",
+          "Value": "img/articles/a10.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKEfTJZNLcc3n9yFAZ9L5j7NwxDVJL+S6LgKyWCSozI="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a10.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a10.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKEfTJZNLcc3n9yFAZ9L5j7NwxDVJL+S6LgKyWCSozI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKEfTJZNLcc3n9yFAZ9L5j7NwxDVJL+S6LgKyWCSozI="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a11.iigtiqb1w6.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a11.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2uJC+6H/sdBDFfGtrJuyfcKz3jzrohLdNhz1H9Wt+IE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iigtiqb1w6"
+        },
+        {
+          "Name": "label",
+          "Value": "img/articles/a11.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2uJC+6H/sdBDFfGtrJuyfcKz3jzrohLdNhz1H9Wt+IE="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a11.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a11.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2uJC+6H/sdBDFfGtrJuyfcKz3jzrohLdNhz1H9Wt+IE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2uJC+6H/sdBDFfGtrJuyfcKz3jzrohLdNhz1H9Wt+IE="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a2.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cAaghvfL1bqmgZpGBoAug8OBMbvSKqOLTGiiT21Z+7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cAaghvfL1bqmgZpGBoAug8OBMbvSKqOLTGiiT21Z+7c="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a2.woddf164kt.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cAaghvfL1bqmgZpGBoAug8OBMbvSKqOLTGiiT21Z+7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "woddf164kt"
+        },
+        {
+          "Name": "label",
+          "Value": "img/articles/a2.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cAaghvfL1bqmgZpGBoAug8OBMbvSKqOLTGiiT21Z+7c="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a3.i9rqjh6f9l.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a3.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hgMMyzdGoyRWJ4jCEX/gVCeOcj9JIxu1/m9Bwgm0wM0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9rqjh6f9l"
+        },
+        {
+          "Name": "label",
+          "Value": "img/articles/a3.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hgMMyzdGoyRWJ4jCEX/gVCeOcj9JIxu1/m9Bwgm0wM0="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a3.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a3.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hgMMyzdGoyRWJ4jCEX/gVCeOcj9JIxu1/m9Bwgm0wM0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hgMMyzdGoyRWJ4jCEX/gVCeOcj9JIxu1/m9Bwgm0wM0="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a4.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a4.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C4Tt1BKWTamBcAxnZbwjbU09NhVvg/EC76pve3GNTiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C4Tt1BKWTamBcAxnZbwjbU09NhVvg/EC76pve3GNTiw="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a4.x5mz9ucerr.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a4.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C4Tt1BKWTamBcAxnZbwjbU09NhVvg/EC76pve3GNTiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x5mz9ucerr"
+        },
+        {
+          "Name": "label",
+          "Value": "img/articles/a4.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C4Tt1BKWTamBcAxnZbwjbU09NhVvg/EC76pve3GNTiw="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a5.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a5.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IDMMVh2pfAzM4ydRylKUPpqwloNon7xdwQChSKaAdw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IDMMVh2pfAzM4ydRylKUPpqwloNon7xdwQChSKaAdw="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a5.wi7v5h4wxn.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a5.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IDMMVh2pfAzM4ydRylKUPpqwloNon7xdwQChSKaAdw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wi7v5h4wxn"
+        },
+        {
+          "Name": "label",
+          "Value": "img/articles/a5.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IDMMVh2pfAzM4ydRylKUPpqwloNon7xdwQChSKaAdw="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a6.0zu7fesiwy.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a6.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dMB2yZVTyMXXKfPxkhaD3HejC3Uxkc05q+qu8VeON6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0zu7fesiwy"
+        },
+        {
+          "Name": "label",
+          "Value": "img/articles/a6.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dMB2yZVTyMXXKfPxkhaD3HejC3Uxkc05q+qu8VeON6w="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a6.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a6.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dMB2yZVTyMXXKfPxkhaD3HejC3Uxkc05q+qu8VeON6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dMB2yZVTyMXXKfPxkhaD3HejC3Uxkc05q+qu8VeON6w="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a7.r2tg7q10v8.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a7.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MxaCwb95oT11yl5MOA/BafeuFV9irhqLawh0j2NsB5c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r2tg7q10v8"
+        },
+        {
+          "Name": "label",
+          "Value": "img/articles/a7.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MxaCwb95oT11yl5MOA/BafeuFV9irhqLawh0j2NsB5c="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a7.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a7.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MxaCwb95oT11yl5MOA/BafeuFV9irhqLawh0j2NsB5c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MxaCwb95oT11yl5MOA/BafeuFV9irhqLawh0j2NsB5c="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a8.d8hhx3j089.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a8.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fU6UP+aN9pMIogR/owOtde5nTpXOY6YbAx+3YKTDDH4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d8hhx3j089"
+        },
+        {
+          "Name": "label",
+          "Value": "img/articles/a8.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fU6UP+aN9pMIogR/owOtde5nTpXOY6YbAx+3YKTDDH4="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a8.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a8.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fU6UP+aN9pMIogR/owOtde5nTpXOY6YbAx+3YKTDDH4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fU6UP+aN9pMIogR/owOtde5nTpXOY6YbAx+3YKTDDH4="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a9.49m1ge5rps.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a9.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GMHaEoGlolaRrmBcE1BOFWedPFw9V1pI5ZvhEJRpamY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "49m1ge5rps"
+        },
+        {
+          "Name": "label",
+          "Value": "img/articles/a9.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GMHaEoGlolaRrmBcE1BOFWedPFw9V1pI5ZvhEJRpamY="
+        }
+      ]
+    },
+    {
+      "Route": "img/articles/a9.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\articles\\a9.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GMHaEoGlolaRrmBcE1BOFWedPFw9V1pI5ZvhEJRpamY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GMHaEoGlolaRrmBcE1BOFWedPFw9V1pI5ZvhEJRpamY="
+        }
+      ]
+    },
+    {
+      "Route": "img/vol/v1.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\vol\\v1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "999"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c+1L9YVcbC5wGm9e66yiz6Ujfrzn6xL3xnEdTQHZh/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c+1L9YVcbC5wGm9e66yiz6Ujfrzn6xL3xnEdTQHZh/0="
+        }
+      ]
+    },
+    {
+      "Route": "img/vol/v1.zwp9els4wk.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\vol\\v1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "999"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c+1L9YVcbC5wGm9e66yiz6Ujfrzn6xL3xnEdTQHZh/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zwp9els4wk"
+        },
+        {
+          "Name": "label",
+          "Value": "img/vol/v1.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c+1L9YVcbC5wGm9e66yiz6Ujfrzn6xL3xnEdTQHZh/0="
+        }
+      ]
+    },
+    {
+      "Route": "img/vol/v2.8c8pbtdy9y.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\vol\\v2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eMXJ63OZ+AoHt+IBFDmctIL4BAyAZkwPdls6GBwOZu4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8c8pbtdy9y"
+        },
+        {
+          "Name": "label",
+          "Value": "img/vol/v2.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eMXJ63OZ+AoHt+IBFDmctIL4BAyAZkwPdls6GBwOZu4="
+        }
+      ]
+    },
+    {
+      "Route": "img/vol/v2.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\vol\\v2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eMXJ63OZ+AoHt+IBFDmctIL4BAyAZkwPdls6GBwOZu4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eMXJ63OZ+AoHt+IBFDmctIL4BAyAZkwPdls6GBwOZu4="
+        }
+      ]
+    },
+    {
+      "Route": "img/vol/v3.or68v765a3.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\vol\\v3.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1001"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RG9yFiu50T9q0eAZV2rkq7PejPdjV43Lzoa0gHFWRsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "or68v765a3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/vol/v3.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RG9yFiu50T9q0eAZV2rkq7PejPdjV43Lzoa0gHFWRsA="
+        }
+      ]
+    },
+    {
+      "Route": "img/vol/v3.svg",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\img\\vol\\v3.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1001"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RG9yFiu50T9q0eAZV2rkq7PejPdjV43Lzoa0gHFWRsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RG9yFiu50T9q0eAZV2rkq7PejPdjV43Lzoa0gHFWRsA="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.9nyp0lav7v.js",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\home.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pU+lnWlvVtczzse1CLqsVLylKgY8cSlE7qiObYKJ+mw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9nyp0lav7v"
+        },
+        {
+          "Name": "label",
+          "Value": "js/home.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pU+lnWlvVtczzse1CLqsVLylKgY8cSlE7qiObYKJ+mw="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.js",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\home.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pU+lnWlvVtczzse1CLqsVLylKgY8cSlE7qiObYKJ+mw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pU+lnWlvVtczzse1CLqsVLylKgY8cSlE7qiObYKJ+mw="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.b9p6lexbfg.js",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "584"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X8JgCWSZnlQHL6SucP/22qpyWWNNCrTyaDnkhoPL6og=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b9p6lexbfg"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X8JgCWSZnlQHL6SucP/22qpyWWNNCrTyaDnkhoPL6og="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "584"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X8JgCWSZnlQHL6SucP/22qpyWWNNCrTyaDnkhoPL6og=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X8JgCWSZnlQHL6SucP/22qpyWWNNCrTyaDnkhoPL6og="
+        }
+      ]
+    },
+    {
+      "Route": "js/slider.9m7zctq472.js",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\slider.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1170"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ry5flodPJM+YtdhbCC+jt4njcDeZOOQlrLKM0noS8JI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9m7zctq472"
+        },
+        {
+          "Name": "label",
+          "Value": "js/slider.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ry5flodPJM+YtdhbCC+jt4njcDeZOOQlrLKM0noS8JI="
+        }
+      ]
+    },
+    {
+      "Route": "js/slider.js",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\slider.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1170"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ry5flodPJM+YtdhbCC+jt4njcDeZOOQlrLKM0noS8JI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ry5flodPJM+YtdhbCC+jt4njcDeZOOQlrLKM0noS8JI="
+        }
+      ]
+    },
+    {
+      "Route": "js/volunteer.9ek7yqgtjg.js",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\volunteer.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/1Ld4v67OSuJ+arxC1V4KISUeKegWDzokr0DUszzwOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ek7yqgtjg"
+        },
+        {
+          "Name": "label",
+          "Value": "js/volunteer.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/1Ld4v67OSuJ+arxC1V4KISUeKegWDzokr0DUszzwOI="
+        }
+      ]
+    },
+    {
+      "Route": "js/volunteer.js",
+      "AssetFile": "C:\\Users\\mikai\\OneDrive\\Рабочий стол\\PlechPomoshchi\\wwwroot\\js\\volunteer.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/1Ld4v67OSuJ+arxC1V4KISUeKegWDzokr0DUszzwOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 10 Apr 2026 22:52:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/1Ld4v67OSuJ+arxC1V4KISUeKegWDzokr0DUszzwOI="
+        }
+      ]
+    }
+  ]
+}

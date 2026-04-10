@@ -1,0 +1,149 @@
+@{
+    ViewData["Title"] = "Плечо помощи";
+}
+
+@section Head {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-control-geocoder@2.4.0/dist/Control.Geocoder.css" />
+}
+
+<section class="pp-home-hero">
+    <div class="pp-shell text-center">
+        <div class="pp-logo-stack">
+            <div class="pp-logo-icon">H</div>
+            <div class="pp-logo-wordmark">ПЛЕЧО ПОМОЩИ</div>
+            <div class="pp-home-subtitle">Сайт-мониторинг волонтёрских организаций, которые помогают ветеранам СВО и их семьям по России.</div>
+        </div>
+    </div>
+</section>
+
+<section class="pp-shell pp-home-cards">
+    <div class="pp-slider" id="ppSlider" aria-label="Карусель статей">
+        @for (var i = 1; i <= 5; i++)
+        {
+            <a class="pp-slide pp-slide-ghost" href="/Articles/Details/@i">
+                <div class="pp-ghost-box"></div>
+            </a>
+        }
+    </div>
+    <a class="pp-link-inline" href="/Stories">Посмотрите истории</a>
+</section>
+
+<section class="pp-shell pp-block" id="list">
+    <h2 class="pp-page-title-sm">УЧРЕЖДЕНИЯ</h2>
+    <div class="pp-section-note">Каталог формируется на основе открытых источников и заявок на добавление организаций.</div>
+
+    <div class="pp-filter-panel">
+        <div class="row g-2">
+            <div class="col-lg-5">
+                <input class="form-control pp-input" id="filterQ" placeholder="Поиск по названию..." />
+            </div>
+            <div class="col-lg-3">
+                <select class="form-select pp-input" id="filterCity">
+                    <option value="">Город</option>
+                </select>
+            </div>
+            <div class="col-lg-4">
+                <select class="form-select pp-input" id="filterCategory">
+                    <option value="">Категория</option>
+                </select>
+            </div>
+            <div class="col-lg-6 col-xl-5 d-flex align-items-center">
+                <div class="form-check small mt-1">
+                    <input class="form-check-input" type="checkbox" id="filterFav">
+                    <label class="form-check-label" for="filterFav">Только избранное</label>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-7">
+                <div class="d-flex flex-wrap gap-2 justify-content-lg-end">
+                    <button class="pp-outline-btn" type="button" id="btnApply">Применить</button>
+                    <button class="pp-outline-btn" type="button" id="btnReset">Сбросить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-3 mt-1">
+        <div class="col-lg-5">
+            <div class="pp-list-panel">
+                <div class="pp-list-head">
+                    <span>Организации</span>
+                    <span id="orgCount">—</span>
+                </div>
+                <div class="pp-orglist" id="orgList">
+                    <div class="p-3 text-muted">Загрузка…</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-7">
+            <div class="pp-map-panel">
+                <div id="mapBox" class="pp-map"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pp-shell pp-volunteer-cta" id="volunteers">
+    <div class="row align-items-center g-4">
+        <div class="col-lg-5">
+            <div class="pp-kicker">ДЛЯ ВОЛОНТЁРОВ</div>
+            <h2 class="pp-cta-title">Хотите помогать? Присоединяйтесь</h2>
+            <p class="pp-cta-text">Вы — волонтёр или представляете сообщество? Если вашей организации ещё нет в нашем мониторинге — оставьте заявку. Мы проверим данные и добавим вас на карту.</p>
+            <a class="pp-outline-btn pp-big-btn" href="/Volunteer">Отправить заявку</a>
+        </div>
+        <div class="col-lg-7">
+            <div class="pp-cta-placeholder"></div>
+        </div>
+    </div>
+</section>
+
+<section class="pp-shell pp-faq-block">
+    <h2 class="pp-page-title">Часто задаваемые вопросы</h2>
+    <div class="accordion pp-accordion" id="faqAcc">
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#f1">Кто может подать заявку на добавление организации?</button></h2><div id="f1" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Любой представитель организации или волонтёрского сообщества.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#f2">Бесплатно ли это?</button></h2><div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Да, отправка заявки и размещение в каталоге бесплатны.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#f3">Как попасть в избранное?</button></h2><div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Нужно войти в аккаунт и отметить организацию сердцем в списке.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#f4">Безопасны ли мои данные?</button></h2><div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Да, формы защищены, а пароли в базе хранятся в виде хеша.</div></div></div>
+        <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#f5">Как с вами связаться?</button></h2><div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">Через раздел «Контакты» внизу страницы.</div></div></div>
+    </div>
+</section>
+
+
+<div class="modal fade" id="orgModal" tabindex="-1" aria-labelledby="orgModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content pp-org-modal">
+            <div class="modal-header">
+                <div>
+                    <div class="pp-kicker mb-2">Организация</div>
+                    <h3 class="modal-title pp-orgmodal-title" id="orgModalTitle">Организация</h3>
+                    <div class="pp-orgmodal-meta" id="orgModalMeta"></div>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <p class="pp-orgmodal-desc" id="orgModalDesc"></p>
+                <div class="row g-3 mt-1">
+                    <div class="col-md-6">
+                        <div class="pp-orgmodal-card">
+                            <div class="pp-kicker mb-2">Контакты</div>
+                            <div id="orgModalContacts"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pp-orgmodal-card">
+                            <div class="pp-kicker mb-2">Ссылки</div>
+                            <div class="d-flex flex-column gap-2" id="orgModalLinks"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-control-geocoder@2.4.0/dist/Control.Geocoder.js"></script>
+    <script src="~/js/slider.js" asp-append-version="true"></script>
+    <script src="~/js/home.js" asp-append-version="true"></script>
+}

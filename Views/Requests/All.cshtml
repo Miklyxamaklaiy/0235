@@ -1,0 +1,49 @@
+@model List<HelpRequest>
+@{
+    ViewData["Title"] = "Лента заявок";
+    var status = ViewBag.Status as string;
+    var statuses = new[] { "", "Новая", "В работе", "Выполнена", "Отклонена" };
+}
+<div class="container-fluid px-3 px-lg-4 py-5">
+    <h1 class="pp-h1">Лента заявок</h1>
+    <p class="text-muted">Доступна “Исполнителю” и “Администратору”.</p>
+
+    <div class="d-flex flex-wrap gap-2 mb-3">
+        @foreach (var s in statuses)
+        {
+            var label = string.IsNullOrWhiteSpace(s) ? "Все" : s;
+            var active = (status ?? "") == s;
+            <a class="btn btn-sm @(active ? "btn-primary" : "btn-outline-secondary")" href="/Requests/All?status=@Uri.EscapeDataString(s)">@label</a>
+        }
+    </div>
+
+    <div class="card border-0 shadow-sm">
+        <div class="table-responsive">
+            <table class="table table-hover mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Автор</th>
+                        <th>Категория</th>
+                        <th>Статус</th>
+                        <th>Дата</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var r in Model)
+                {
+                    <tr>
+                        <td>@r.Id</td>
+                        <td>@(r.User?.FullName ?? ("#" + r.UserId))</td>
+                        <td>@r.Category</td>
+                        <td><span class="badge bg-secondary">@r.Status</span></td>
+                        <td>@r.CreatedAt.ToLocalTime().ToString("dd.MM.yyyy HH:mm")</td>
+                        <td class="text-end"><a class="btn btn-sm btn-outline-secondary" href="/Requests/Details/@r.Id">Открыть</a></td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
